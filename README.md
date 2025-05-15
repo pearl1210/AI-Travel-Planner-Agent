@@ -49,33 +49,6 @@ This project utilizes several MCP (Model Context Protocol) servers to provide a 
 
 2. **Python 3.8+**: Ensure you have Python 3.8 or higher installed.
 
-### Installation
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/yourusername/ai_travel_planner_mcp_agent_team
-   cd ai_travel_planner_mcp_agent_team
-   ```
-
-2. Install the required Python packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Set up environment variables:
-   Create a `.env` file in the project root with the following variables:
-
-   ```
-   GOOGLE_CLIENT_ID=
-   GOOGLE_CLIENT_SECRET=
-   GOOGLE_REFRESH_TOKEN=
-   GOOGLE_MAPS_API_KEY=
-   OPENAI_API_KEY=
-   ACCUWEATHER_API_KEY=
-   ```
-
 ## Project Structure
 
 * `app.py`: Main Streamlit application
